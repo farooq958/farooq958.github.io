@@ -35,7 +35,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "4042477223";
+    const serviceWorkerVersion = "3847028832";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -56,27 +56,26 @@
     });
   </script>
   <script type="module">
+
   // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyDOYpnzTmPUn9NN4flgvgf-4Tvgu0QBke0",
-    authDomain: "portfoliome-64dea.firebaseapp.com",
-    projectId: "portfoliome-64dea",
-    storageBucket: "portfoliome-64dea.appspot.com",
-    messagingSenderId: "114140189871",
-    appId: "1:114140189871:web:5d1f174a05703d33bab05a",
-    measurementId: "G-WY5B4MCD2R"
-  };
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyArv56qZNHX28-dWGkzwbdKA6-t2N0Ukng",
+  authDomain: "myportfolio-7a756.firebaseapp.com",
+  projectId: "myportfolio-7a756",
+  storageBucket: "myportfolio-7a756.appspot.com",
+  messagingSenderId: "774186141699",
+  appId: "1:774186141699:web:c704c1c553de84f95f2636"
+};
 
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+
 </script>
 </body>
 </html>
