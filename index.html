@@ -34,7 +34,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "519880492";
+    const serviceWorkerVersion = "2881693555";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -55,7 +55,23 @@
     });
   </script>
   <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
 
+        // Your web app's Firebase configuration
+       const firebaseConfig = {
+  apiKey: "AIzaSyAqC9l8RDDiGUu-ZFK65xtwsWBujo7Hk4k",
+  authDomain: "farooqportfolio-70cd5.firebaseapp.com",
+  projectId: "farooqportfolio-70cd5",
+  storageBucket: "farooqportfolio-70cd5.firebasestorage.app",
+  messagingSenderId: "672389467099",
+  appId: "1:672389467099:web:fc746a1d90d1ccc60775fe",
+  measurementId: "G-F8S8RV6PMV"
+};
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
 
   </script>
 </body>
